@@ -2,10 +2,6 @@ html {
   font-family: Merriweather, serif;
 }
 
-a:focus {
-  outline: 3px solid #000;
-}
-
 .color-brand {
   color: #568c36;
 }
@@ -14,17 +10,8 @@ a:focus {
   color: #113c00;
 }
 
-.skip-links a {
-  position: absolute;
-  top: -3em;
-}
-
-.skip-links a:focus {
-  top: 0;
-}
-
 a {
-  color: #fff;
+  color: #568c36;
   text-decoration: none;
 }
 
@@ -34,16 +21,17 @@ a:hover {
 
 .masthead {
   background-color: #568c36;
+
   color: #fff;
 }
 
-nav {
+.nav {
   position: relative;
   background-color: #113c00;
   z-index: 2;
 }
 
-.nav ol li a {
+.nav a {
   color: #fff;
   text-decoration: none;
 }
